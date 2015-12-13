@@ -13,6 +13,7 @@ function preload() {
     game.load.spritesheet('enemySheet', 'assets/enemySheet.png', 64, 106);
     game.load.image('megacommando1', 'assets/megacommando.png');
     game.load.image('cityBackground1', 'assets/cityBackground1.png');
+    game.load.image('upKey', 'assets/upKey.png');
 }
 
 var map;
