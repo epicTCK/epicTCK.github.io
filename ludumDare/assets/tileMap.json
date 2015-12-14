@@ -23,7 +23,7 @@
  "tilesets":[
         {
          "firstgid":1,
-         "image":"..\/..\/..\/..\/Users\/admin\/Documents\/GitHub\/epicTCK.github.io\/ludumDare\/assets\/megacommando.png",
+         "image":"megacommando.png",
          "imageheight":1280,
          "imagewidth":1024,
          "margin":0,
