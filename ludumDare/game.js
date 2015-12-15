@@ -19,7 +19,7 @@ function preload() {
     game.load.image('downKey', 'assets/downKey.png');
     game.load.image('platform', 'assets/platform.png');
     game.load.image('gameOver', 'assets/gameOver.png');
-    game.load.audio('cheerUp', ['assets/cheerUp.mp3', 'assets/cheerUp.ogg']);
+    game.load.audio('cheerUp', 'http://opengameart.org/sites/default/files/Cheer%20up%20PSG%208-bit%20Loop_v2_0.mp3');
 }
 
 var map;
