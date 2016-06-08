@@ -10,7 +10,7 @@ function create() {
    Game.physics.startSystem(Phaser.Physics.ARCADE);
    Game.physics.enable(chicken, Phaser.Physics.ARCADE);
    Game.physics.arcade.gravity.y = 200;
-   Chicken.body.collideWorldBounds = true;
+   chicken.body.collideWorldBounds = true;
 }
 function update(){
    console.log('hi');
