@@ -7,6 +7,9 @@ function preload() {
 var chicken;
 function create() {
    chicken = game.add.sprite(0, 0, 'chicken');
+   Game.physics.startSystem(Phaser.Physics.ARCADE);
+   Game.physics.enable(chicken, Phaser.Physics.ARCADE);
+
 }
 function update(){
    console.log('hi');
