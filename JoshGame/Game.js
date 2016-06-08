@@ -8,3 +8,5 @@ var chicken;
 function create() {
    chicken = game.add.sprite(0, 0, 'chicken');
 }
+function update(){
+}
