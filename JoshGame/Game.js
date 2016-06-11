@@ -12,7 +12,7 @@ function create() {
    Game.physics.enable(chicken, Phaser.Physics.ARCADE);
    Game.physics.arcade.gravity.y = 200;
    chicken.body.collideWorldBounds = true;
-   chicken.scale.setTo(-2, -2);
+   chicken.scale.setTo(-1, -1);
    cursors = Game.input.keyboard.createCursorKeys();
    
 }
