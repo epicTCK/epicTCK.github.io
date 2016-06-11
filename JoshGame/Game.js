@@ -16,7 +16,8 @@ function create() {
 }
 function update(){
    chicken.body.velocity.x = 0;
-   chicken.body.velocity.y = 0;
+   if(chicken.body.velocity.y < 0)
+     chicken.body.velocity.y = 0;
    if(cursors.right.isDown)
      chicken.body.velocity.x = 50;
    if(cursors.left.isDown)
