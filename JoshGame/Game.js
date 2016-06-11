@@ -15,7 +15,7 @@ function create() {
    cursors = Game.input.keyboard.createCursorKeys();
 }
 function update(){
-   cursors.body.velocity.x = 0;
+   chicken.body.velocity.x = 0;
    if(cursors.right.isDown)
      chicken.body.velocity.x = 50;
    if(cursors.left.isDown)
